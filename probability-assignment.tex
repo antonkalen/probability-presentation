@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{fancyhdr} 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\fancyhead[R]{Probability -- Lab Assignment}
+\pagestyle{fancy}
+
+\author{
+        \large
+        \textsc{Anton Kalén} \\
+        \texttt{anton.kalen@his.se}
+}                                      
+
+\title{Probability -- Lab Assignment
+{\large {\bf IMPORTANT:} See further instructions regarding the report and work structure from the R lecture slides. In particular, you should work  individually.}           
+\\[1cm]}
+\date{\today}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}   
+\begin{enumerate}
+	\item Calculate the probability that $x \in [0, 3]$ for a standard 
+		normal distribution ($\mu = 1$, $\sigma = 2$).	
+	\item Draw different number of observations from the standard normal 
+		distribution ($\mathcal{N}(0,1)$), e.g., 10, 30, 50 and 100, and calculate the mean value.
+		What happens as the number of observations increases?
+	\item For a random variable $X \sim \text{Binom}(0.7, 10)$, plot its probability mass function.
+	\item For the above distribution, calculate central tendencies (mean, median, mode). Are they similiar? Discuss why/why not.
+	\item In what is known as hierarchical models or multi-level models, one assumes distributions over parameters in
+		other distributions, i.e., a hierarchy. Assume that there is a 
+		standard normal distribution over $\mu$ in another standard normal
+		distribution and generate observations $x$ based on these assumptions.
+		\begin{equation}
+		\begin{split}
+			x &\sim N(\mu, \sigma=1)\\
+			\mu &\sim N(0,1)
+		\end{split}
+		\end{equation}
+		Plot the drawn samples in a histogram.
+	\item Read up on the exponential distribution. Explain what an exponential random variable likely represent (what is it used for). Plot its probability density function.
+	\item You work for an amusement park that wants to decisde how many people they have one person selling tickets in the entrance. On average, they sell 4 tickets per minute, but it varies from minute to minute. What is a reasonable distribution to assume for the random variable $X$ indicating the amount of tickets per minute? Plot its probability mass/density function, as well as its cumulative distribution function.
+	\item What is the probability of the above amusement park selling more than 8 tickets one minute?
+\end{enumerate}
+\end{document}
+
