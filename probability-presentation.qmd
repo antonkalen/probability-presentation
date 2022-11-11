@@ -55,7 +55,7 @@ $\pi = 3.1415927$
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 
 x <- seq(
   from = 1, 
@@ -86,7 +86,7 @@ $VAT = 0.25 \times price$
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| 
 price <- seq(
   from = 1, 
@@ -109,7 +109,7 @@ $VAT = 0.25 \times price$
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 
 price <- seq(
   from = 1, 
@@ -305,7 +305,7 @@ $X \sim \text{Bin}(3, 0.5)$
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 n <- 3
 p <- 0.5
 
@@ -334,7 +334,7 @@ points(omega, prob, pch = 16)
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| code-line-numbers: "1"
 n <- 10
 p <- 0.5
@@ -364,7 +364,7 @@ points(omega, prob, pch = 16)
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| code-line-numbers: "2"
 n <- 10
 p <- 0.3
@@ -429,7 +429,7 @@ $X$ is smaller or equal to $x_i$.
 ```{r}
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| echo: false
 n <- 10
 p <- 0.5
@@ -453,7 +453,7 @@ points(omega, prob, pch = 16)
 ```{r}
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| echo: false
 n <- 10
 p <- 0.5
@@ -501,7 +501,7 @@ $\lambda$ --- Mean and variance of $X$
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 lambda <- 4
 
 range <- 0:30
@@ -526,7 +526,7 @@ points(range, prob, pch = 16)
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 lambda <- 10
 
 range <- 0:30
@@ -551,7 +551,7 @@ points(range, prob, pch = 16)
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 lambda <- 4
 
 range <- 0:30
@@ -574,7 +574,7 @@ plot(range, prob, type = "s")
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 lambda <- 10
 
 range <- 0:30
@@ -808,7 +808,7 @@ Probability density function of $\mathcal{N}(0, 1)$.
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 mu <- 0
 sigma <- 1
 
@@ -833,7 +833,7 @@ Probability density function of $\mathcal{N}(0, 2)$.
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| code-line-numbers: "2"
 mu <- 0
 sigma <- 2
@@ -859,7 +859,7 @@ Probability density function of $\mathcal{N}(3, 2)$.
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| code-line-numbers: "1,2"
 mu <- 3
 sigma <- 2
@@ -885,7 +885,7 @@ Cumulative distribution function of $\mathcal{N}(0, 1)$.
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| code-line-numbers: "6,7,8,9,10"
 mu <- 0
 sigma <- 1
@@ -911,7 +911,7 @@ Cumulative distribution function of $\mathcal{N}(0, 2)$.
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| code-line-numbers: "2"
 mu <- 0
 sigma <- 2
@@ -937,7 +937,7 @@ Cumulative distribution function of $\mathcal{N}(3, 2)$.
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 #| code-line-numbers: "1"
 mu <- 3
 sigma <- 2
@@ -996,7 +996,7 @@ Simulate 1000 draws from $X \sim \mathcal{N}(1, 0)$
 #| output-location: column
 #| fig-asp: 0.9
 #| fig-width: 4
-#| out-width: "100%"
+#| out-width: "90%"
 mu <- 0
 sigma <- 1
 n <- 1000
